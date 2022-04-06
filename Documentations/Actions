@@ -1,0 +1,14 @@
+============================================== ACTIONS ==============================================
+
+Horloge:
+    -> Date
+    -> Heure
+
+Meteo:
+    -> temperature
+    -> temperature ressenti
+    -> pression
+    -> humidité
+    -> Temps Global
+    -> Levé du soleil
+    -> Couché du soleil

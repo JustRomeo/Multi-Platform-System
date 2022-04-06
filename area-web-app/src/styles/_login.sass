@@ -1,0 +1,56 @@
+.login-page
+    height: 100vh
+    width: 100vw
+    display: flex
+    flex-direction: column
+    background: linear-gradient(to right, $blue-color, $purple-color)
+    header
+        height: 40vh
+        min-height: 200px
+        min-width: 540px
+        .btn
+            float: right
+            justify-self: right
+            margin: 16px
+            border: 2px solid transparent
+            border-radius: 20px
+            box-shadow: 2px 0 6px 0 rgba(0, 0, 0, 0.3)
+            transition: .3s
+            background-color: white
+            color: $purple-color
+            font-weight: $bold
+    .body
+        height: 60vh
+        min-height: 300px
+        display: flex
+        background: linear-gradient(to left, $blue-color, $purple-color)
+        .content
+            display: flex
+            flex-direction: column
+            position: absolute
+            left: 0
+            right: 0
+            margin-left: auto
+            margin-right: auto
+            margin-top: -200px
+            height: 72vh
+            width: 44vw
+            min-width: 500px
+            min-height: 400px
+            h1
+                color: white
+                font-weight: $bold
+                font-size: 50px
+                align-self: center
+                text-align: center
+            .card
+                margin: 10px
+                margin-top: 24px
+                height: 100%
+                background-color: white
+                border: 2px solid transparent
+                border-radius: 20px
+                box-shadow: 0 0 60px 8px rgba(0, 0, 0, 0.3)
+    .white-line
+        background-color: white
+        min-height: 20px

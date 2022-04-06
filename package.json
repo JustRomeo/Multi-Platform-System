@@ -1,0 +1,9 @@
+{
+  "name": "B-YEP-500-PAR-5-1-area-romeo.talovici",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "fetch": "^1.1.0",
+    "node": "^15.8.0",
+    "node-fetch": "^2.6.1"
+  }
+}

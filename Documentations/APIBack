@@ -1,0 +1,15 @@
+Web Doc' TXT
+
+
+Sign Up: http://localhost:6660/connection/sign_up
+    Arguments: Username(required), Password(required), Mail(required), Name, OauthTwitter
+    Response: connect(SUCCESS/FAIL)
+
+Sign In: http://localhost:6660/connection/sign_in
+    Arguments: Username(required), Password(required)
+    Response: connect(SUCCESS/FAIL)
+
+User Infos: http://localhost:6660/connection/getUser
+    Arguments: Username(required)
+    Response: UserInfos
+

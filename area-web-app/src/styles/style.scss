@@ -1,0 +1,18 @@
+// color
+$purple-color:#9929ea;
+$blue-color: #5808fb;
+
+// font weigth
+$light: 300;
+$medium: 500;
+$bold: 700;
+
+// font familly
+$font-family-base: 'open sans', Arial, sans-serif;
+
+// Import
+// ======
+// pages
+@import "app";
+@import "login";
+@import "register";

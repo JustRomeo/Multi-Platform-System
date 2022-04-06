@@ -1,0 +1,197 @@
+{
+  "actions": [
+    {
+      "name": "Outlook",
+      "actions": [
+        {
+          "title": "J'ai un mail non lu",
+          "name": "asUnreadMail",
+          "args": [
+            "Dans quel dossier ?",
+            "De qui ?"
+          ]
+        },
+        {
+          "title": "J'ai un évenement",
+          "name": "isEvent",
+          "args": [
+            "Sur combien de jours ?"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Google",
+      "actions": [
+        {
+          "title": "J'ai un mail non lu",
+          "name": "asUnreadMail"
+        },
+        {
+          "title": "Une nouvelle vidéo sort",
+          "name": "getNewVideo",
+          "args": [
+            "ID de la chaine (doit être abonné)"
+          ]
+        },
+        {
+          "title": "isEvent",
+          "name": "J'ai un evenement",
+          "args": [
+            "Sur combien de jours ?"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Epitech",
+      "actions": [
+        {
+          "title": "J'ai une absence",
+          "name": "getMissed"
+        },
+        {
+          "title": "J'ai une notification",
+          "name": "getNotification"
+        },
+        {
+          "title": "Mon GPA change",
+          "name": "getGPA"
+        },
+        {
+          "title": "Mon nombre de crédits change",
+          "name": "getCredit"
+        },
+        {
+          "title": "Un projet se termine",
+          "name": "getEndOfProject",
+          "args": [
+            "Nom du projet"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Spotify",
+      "actions": [
+        {
+          "title": "Un artiste sort un album",
+          "name": "newAlbum",
+          "args": [
+            "Nom de l'artiste"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Currency",
+      "actions": [
+        {
+          "title": "La valeur d'une devise diminue",
+          "name": "isCurrencyUnder",
+          "args": [
+            "Quelle devise ?",
+            "En dessous de combien de $ ?"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Weather",
+      "actions": [
+        {
+          "title": "La temperature diminue",
+          "name": "isTempUnder",
+          "args": [
+            "Quelle ville ?",
+            "En dessous de quelle temperature ?"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Clock",
+      "actions": [
+        {
+          "title": "La semaine se termine",
+          "name": "isEndOfWeek"
+        },
+        {
+          "title": "Il est l'heure",
+          "name": "isSomeHour",
+          "args": [
+            "Quelle heure ?"
+          ]
+        }
+      ]
+    }
+  ],
+  "reactions": [
+    {
+      "name": "Outlook",
+      "reactions": [
+        {
+          "title": "Envoyer un mail",
+          "name": "sendEmail",
+          "args": [
+            "A qui ?",
+            "Quel sujet de mail ?",
+            "Quel contenu ?"
+          ]
+        },
+        {
+          "title": "Créer un évenement",
+          "name": "createEvent",
+          "args": [
+            "Sujet de l'évenement:",
+            "Debut:",
+            "Fin:"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Google",
+      "reactions": [
+        {
+          "title": "Envoyer un mail",
+          "name": "sendEmail",
+          "args": [
+            "A qui ?",
+            "Quel sujet de mail ?",
+            "Quel contenu ?"
+          ]
+        },
+        {
+          "title": "Créer un évenement",
+          "name": "createEvent",
+          "args": [
+            "Sujet de l'évenement:",
+            "Debut ?",
+            "Fin ?"
+          ]
+        },
+        {
+          "title": "Ajouter une vidéo à regarder",
+          "name": "addVideoToWatchLater",
+          "args": [
+            "Dans quelle playlist ?",
+            "ID de la vidéo"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Spotify",
+      "reactions": [
+        {
+          "title": "Sauvegarder une musique",
+          "name": "addToSavedTracks",
+          "args": [
+            "Nom de l'artiste"
+          ]
+        }
+      ]
+    }
+  ]
+}
